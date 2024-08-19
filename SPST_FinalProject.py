@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the trained model (update the path as per your directory structure)
-model = load('C:/Users/95988/Desktop/Thesis_SPST/Coding/final_random_forest_model.joblib')
+model = load('final_random_forest_model.joblib')
 
 # Define the expected feature columns
 feature_columns = ['HST', 'AST', 'HTGDIFF', 'ATGDIFF', 'AVGATGDIFF', 'AVGFTAG', 'AVGFTHG', 'AVGHTGDIFF',
